@@ -1,163 +1,164 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F4F4F6;
-    margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f6;
+  margin: 0;
+  padding-top: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .navbar {
-    display: flex;
-    width: 90%;
-    justify-content: space-between;
-    margin: 0 auto;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .left-nav {
-    align-self: flex-start;
-    font-size: 24px;
-    font-weight: bold;
-    /* margin: 10px 50px; */
+  align-self: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+  /* margin: 10px 50px; */
 }
 
 .right-nav {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .right-nav li {
-    list-style: none;
-    display: inline;
-    margin-left: 30px;
-    color: #AAB2BD;
-    font-size: 14px;
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+  color: #aab2bd;
+  font-size: 14px;
 }
 
 a li:hover {
-    color: #4B89DC;
+  color: #4b89dc;
 }
 
 .right-nav ul {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .big-text {
-    margin: 10% 15% 0 15%;
-    font-size: 48px;
-    font-family: 'Playfair Display', serif;
+  margin: 10% 15% 0 15%;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
 }
 
 form {
-    width: 66%;
-    margin: 5% 15% 10%;
-    font-size: 0;
-    /* text-align: center; */
+  width: 66%;
+  margin: 5% 15% 10%;
+  font-size: 0;
+  /* text-align: center; */
 }
 
 input {
-    background-color: #F4F4F6;
+  background-color: #f4f4f6;
 }
 
 #write {
-    width: 40%;
-    padding: 2%;
-    border: 0.5px solid #AAB2BD;
-    border-radius: 5px 0 0 5px;
-    border-right-style: none;
-    font-size: 16px;
+  width: 40%;
+  padding: 2%;
+  border: 0.5px solid #aab2bd;
+  border-radius: 5px 0 0 5px;
+  border-right-style: none;
+  font-size: 16px;
 }
 
 #date {
-    width: 15%;
-    padding: 2%;
-    border: 0.5px solid #AAB2BD;
-    font-size: 16px;
-    border-right-style: none;
+  width: 15%;
+  padding: 2%;
+  border: 0.5px solid #aab2bd;
+  font-size: 16px;
+  border-right-style: none;
 }
 
 #select {
-    width: 15%;
-    padding: 2%;
-    border: 0.5px solid #AAB2BD;
-    font-size: 16px;
-    border-right-style: none;
+  width: 15%;
+  padding: 2%;
+  border: 0.5px solid #aab2bd;
+  font-size: 16px;
+  border-right-style: none;
 }
 
 #select::placeholder,
 #date::placeholder,
 #write::placeholder {
-    font-size: 16px;
-    color: #C1C6CA;
+  font-size: 16px;
+  color: #c1c6ca;
 }
 
 #submit {
-    width: 15%;
-    padding: 2%;
-    border: 0.5px solid #4b89dc;
-    background-color: #4B89DC;
-    border-radius: 0 5px 5px 0;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    /* border-right-style: none; */
+  width: 15%;
+  padding: 2%;
+  border: 0.5px solid #4b89dc;
+  background-color: #4b89dc;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  /* border-right-style: none; */
 }
 
 .bottom {
-    display: flex;
+  display: flex;
 }
 
 .image {
-    width: 33.3%;
-    border: none;
-    height: 600px;
+  width: 33.3%;
+  border: none;
+  height: 600px;
 }
 
 .image1 {
-    background-image: url(./Image/dolphins.jpg);
-    background-size: cover;
+  background-image: url(./Image/dolphins.jpg);
+  background-size: cover;
 }
 
 .image2 {
-    background: url(./Image/cave.png);
-    background-size: cover;
+  background: url(./Image/cave.png);
+  background-size: cover;
 }
 
 .image3 {
-    background: url(./Image/underwater.png);
-    background-size: cover;
+  background: url(./Image/underwater.png);
+  background-size: cover;
 }
 
 .star1 {
-    float: right;
-    margin: 10px;
+  float: right;
+  margin: 10px;
 }
 
 .text {
-    text-align: center;
-    color: #fff;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    margin-top: 50%;
+  text-align: center;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  margin-top: 50%;
 }
 
 .text p {
-    font-size: 16px;
-    margin-top: 10px;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .text img {
-    width: 10%;
+  width: 10%;
 }
 
 p.last-text {
-    margin: 2% 18%;
+  margin: 2% 18%;
 }
 
 .text h3 {
-    font-size: 48px;
-    margin: 2% 16%;
-    font-weight: normal;
+  font-size: 48px;
+  margin: 2% 16%;
+  font-weight: normal;
 }
